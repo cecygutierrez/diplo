@@ -1,11 +1,72 @@
-body{
-    background-color: brown;
+body {
     box-sizing: border-box;
-    margin: 2px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    height: 60vh;
+}
+
+section#hero {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#hero h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+section#hero h2 {
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
-section#hero h1{
-    background-color: blue;
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects-detail {
+    border: 3px solid rgb(35, 129, 216);
+    border-radius: 6px;
+    width: 100px;
+    margin: 50px;
+    font-size: 8px;
+
+}
+
+.projects-detail img {
+    width: 100px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: bisque;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+
 }
