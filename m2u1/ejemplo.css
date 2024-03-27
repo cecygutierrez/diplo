@@ -1,0 +1,19 @@
+.caja{
+    
+    margin: 100px;
+    width: 300;
+    height: 300;
+    background-color: yellow;
+    padding: 30px;
+
+    box-shadow: 50px 40px 5px  black;
+    /*eje x - eje y - desenfoque - color */
+    box-sizing: box-shadow: -62px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -62px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -62px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 20px solid #ff6550;
+    border-radius:50px 30px 20px;
+    
+
+    
+}

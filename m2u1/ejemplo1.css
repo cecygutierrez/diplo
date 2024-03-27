@@ -1,0 +1,40 @@
+/*// <uniquifier>: Use a unique and descriptive class name
+
+.workbench-<uniquifier> {
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}*/
+.texto{
+    background-color: rgb(224, 189, 189);
+
+column-count: 3;
+column-gap: 40px;
+column-rule: 2px solid black;
+}
+.texto .sinmargen{
+    margin-top: o;
+
+
+}
+
+h2{
+    color: crimson;
+    
+        font-family: "Rubik Scribble", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+p{
+    color: tomato;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
